@@ -15,6 +15,7 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
-pre {
-  font-family: 'Inconsolata', monospace;
-}
+@media (max-width: 800px) {
+  .main {
+    width:100%;} /*The width is 100%, when the viewport is 800px or smaller*/
+  }
